@@ -1,33 +1,63 @@
-p {
-    color: black;
-    width: 500px;
-    border: 1px solid black;}
-    h1 {
-        font-size: 60px;
-        text-align: center;
-      }
-      
+*{
+  padding:0 px;
+margin:o px;
+}
+a{
+  text-decoration:none ;
+  color:black;
+}
+bady{
+  font-family:Arial ;
+  background:url("https://cdn.pixabay.com/photo/2016/09/04/16/42/fractal-1644492_640.jpg");
+  background-size:100%;
+}
+a{
+  list-style:none;
 
-      li {
-        font-size: 16px;
-        line-height: 2;
-        letter-spacing: 1px;
-      }
-      body {
-        width: 900px;
-        margin: 0 auto;
-        background-color: #00ffea45;
-        padding: 0 20px 20px 20px;
-        border: 5px solid black;
-      }
-      h5 {
-        margin: 0;
-        padding: 20px 0;
-        color: #00539f;
-        text-shadow: 3px 3px 1px black;
-      }
-      head{background-color: blanchedalmond;}
-      
-      
+}
+img{
+  width:40px ;
+}
+input[type="checbox"]
+{display:none ;}
+nav{
+  background-color: aliceblue;
+  width: 350px;
+  height:100% ;
+  left:-350px ;
+  position: absolute;
+  transition:all.1s ;
+}
+input[type="checkbox"]:checked~nav
+{
+  transform:translate(350px) ;
+}
+a{
+  color:blue;
+  display: block;
+  padding: 20px 5px;
+}
+a:hover{
+background-color: rgb(176, 224, 230);
+color: black;
+}
+label{
   
+  padding:15px;
+  position: absolute;
+  z-index:1;
+}
+ul{
+  top:70px;
+  position:absolute;
+width:100%;
   
+}
+p{
+  color:white ;
+  text-align:center;
+}
+h1{
+  color: white;
+  text-align: center;
+}
