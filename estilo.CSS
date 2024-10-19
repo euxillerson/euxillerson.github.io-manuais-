@@ -2,13 +2,18 @@
   padding:0 px;
 margin:o px;
 }
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+}
 a{
   text-decoration:none ;
   color:black;
 }
 bady{
   font-family:Arial ;
-  background:url("https://cdn.pixabay.com/photo/2016/09/04/16/42/fractal-1644492_640.jpg");
+  background:url("istockphoto-1345992449-2048x2048.jpg");
   background-size:100%;
 }
 a{
